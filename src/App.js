@@ -14,14 +14,15 @@ function App() {
         >
           Dean Voss
         </a>{" "}
-        and is{" "}
+        and is open-sourced on{" "}
         <a
           href="https://github.com/dean1022/dean-react-weather-app"
           target="_blank"
           rel="noreferrer"
         >
-          open-sourced on GitHub{" "}
+          GitHub
         </a>
+        .
       </footer>
     </div>
   );
