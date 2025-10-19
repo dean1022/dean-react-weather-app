@@ -25,6 +25,14 @@ function App() {
           >
             GitHub
           </a>
+          and hosted on
+          <a
+            href="https://dean-react-weather-app.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
+          </a>
           .
         </footer>
       </div>
