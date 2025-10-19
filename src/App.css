@@ -1,3 +1,20 @@
 a {
   text-decoration: none;
 }
+
+hr {
+  color: grey;
+}
+
+footer {
+  color: grey;
+}
+
+.App {
+  max-width: 700px;
+  margin: 30px auto;
+}
+
+.App footer {
+  font-size: 11px;
+}
