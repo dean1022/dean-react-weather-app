@@ -40,6 +40,7 @@ form {
   font-size: 70%;
   align-items: end;
   color: grey;
+  text-align: left;
 }
 
 .description {
