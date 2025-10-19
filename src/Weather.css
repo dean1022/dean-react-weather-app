@@ -35,6 +35,12 @@ form {
   align-items: center;
 }
 
+.WeatherTemp {
+  display: flex;
+  font-size: 10px;
+  align-items: center;
+}
+
 .details {
   display: flex;
   font-size: 70%;
