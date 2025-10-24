@@ -5,6 +5,11 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
+      <div className="alert alert-warning">
+        Due to an API bug which I am not in a position to fix, the current date
+        and time may be stuck on Toronto time. However, the forecast days are
+        accurate.
+      </div>
       <div className="container">
         <Weather default_city="Toronto" />
         <hr />
@@ -23,7 +28,7 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-            GitHub
+            GitHub{" "}
           </a>
           and hosted on
           <a
@@ -31,6 +36,7 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
+            {" "}
             Netlify
           </a>
           .

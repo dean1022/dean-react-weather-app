@@ -1,0 +1,16 @@
+li {
+  list-style-type: none;
+}
+
+.days {
+  text-align: center;
+}
+
+.weatherForecast-temp-min {
+  opacity: 0.6;
+  margin-left: 5px;
+}
+
+img {
+  width: 70px;
+}

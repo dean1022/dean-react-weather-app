@@ -66,3 +66,7 @@ form {
 .date {
   margin-bottom: 0px;
 }
+
+#big {
+  width: 100px;
+}

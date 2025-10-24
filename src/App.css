@@ -18,3 +18,7 @@ footer {
 .App footer {
   font-size: 11px;
 }
+
+.alert {
+  text-align: center;
+}

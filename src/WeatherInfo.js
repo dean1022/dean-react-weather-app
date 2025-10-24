@@ -1,6 +1,7 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
 import WeatherTemp from "./WeatherTemp";
+import "./Weather.css";
 
 export default function WeatherInfo(props) {
   return (
@@ -12,7 +13,11 @@ export default function WeatherInfo(props) {
       </h4>
       <div className="row">
         <div className="col-1 main-img">
-          <img src={props.info.icon_url} alt={props.info.description} />
+          <img
+            src={props.info.icon_url}
+            alt={props.info.description}
+            id="big"
+          />
         </div>
         <div className="col-2 deg">
           <WeatherTemp celsius={props.info.temperature} />
@@ -22,7 +27,6 @@ export default function WeatherInfo(props) {
             <li>Feels Like: {Math.round(props.info.feels_like)}°C</li>
             <li>Humidity: {props.info.humidity}%</li>
             <li>Wind: {props.info.wind} km/h</li>
-            <li>Pressure: {props.info.pressure}</li>
           </ul>
         </div>
         <div className="col-3 description">
