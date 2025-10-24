@@ -31,6 +31,7 @@ export default function WeatherForecast(props) {
           if (index < 5) {
             return <WeatherForecastDay data={dailyForecast} />;
           }
+          return null;
         })}
       </div>
     </div>
